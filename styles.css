@@ -1,0 +1,149 @@
+body {
+    font: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: bisque;
+}
+
+/* Global */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.button1 {
+    height: 38px;
+    background: orangered;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+/* Header */
+
+header {
+    background-color: rgb(73, 85, 107);
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: rgb(30, 228, 242) solid 4px;
+}
+
+header #logo{
+    float: left;
+
+}
+
+header #logo h1 {
+    margin: 0;
+
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px; 
+}
+
+header .highlight, header .current a {
+    color: crimson;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #4ca3fa;
+    font-weight: bold;
+}
+
+/* showcase */
+
+#showcase {
+    min-height: 400px;
+    background: url(../images/showcase.jpg) no-repeat;
+    opacity: 60%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+#showcase h1 {
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+#newsletter {
+    padding: 15px;
+    color: #ffffff;
+    background: rgb(73, 85, 107);
+}
+
+#newsletter h1 {
+    float: left;
+}
+
+#newsletter form {
+    float: right;
+    margin-top: 15px;
+}
+
+#newsletter input[type="email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+#boxes .box img {
+    width: 90px;
+}
+
+footer {
+    padding: 5px;
+    color: white;
+    background-color: rgb(73, 85, 107);
+    text-align: center;
+    font-weight: bold;
+}
